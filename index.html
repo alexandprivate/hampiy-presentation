@@ -1,97 +1,162 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/black.css" />
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-                <section>
+    <style>
+      .intro {
+        background: url(./image.png) center bottom no-repeat;
+        background-size: contain;
+        opacity: 0.2;
+      }
+    </style>
 
-                        <section data-background-color="#663399">
-                            <h2 style="text-transform: none;"><strong>hampiy v1.0</strong></h2>
-                            <p>Gesti&oacute;n hospitalaria</p>
-                        </section>
-                        
-                        <section data-background-color="#663399">
-                            <h3 style="text-transform: none;"><strong>¿Qué es hampiy?</strong></h3>
-                            <p class="fragment fade-up">hampiy es una aplicaci&oacute;n web creada para la gesti&oacute;n hospitalaria/cl&iacute;nicas</p>
-                        </section>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section class="intro">
+          <section data-background-color="#663399">
+            <h2 style="text-transform: none;"><strong>hampiy v1.0</strong></h2>
+            <p>Gesti&oacute;n de entidades de salud</p>
+          </section>
 
-                        <section data-background-color="#663399">
-                            <h3 style="text-transform: none;"><strong>¿Qué significa hampiy?</strong></h3>
-                            <p class="fragment fade-up">['hanpij] (pronunciaci&oacute;n) significa curar en lengua quechua</p>
-                        </section>
+          <section data-background-color="#663399">
+            <h3 style="text-transform: none;">
+              <strong>¿Por qu&eacute; hampiy?</strong>
+            </h3>
+            <p class="fragment fade-up">
+              [hampi] (pronunciaci&oacute;n) viene la lengua Quechua, significa
+              curar; administrar medicamentos; tratar. Mientras que Hampi Yachay
+              es "Sabio de la medicina" al combinas ambas creamos hampiy.
+            </p>
+          </section>
 
-                        <section data-background-color="#663399">
-                            <h3 style="text-transform: none;"><strong>¿Por qu&eacute; usar hampiy?</strong></h3>
-                            <p class="fragment fade-up">1- Desarrollada con tecnolog&iacute;as modernas</p>
-                            <p class="fragment fade-up">&rarr; Menos imprevistos en el software, menos mantenimiento, menos soporte t&eacute;cnico </p>
-                        </section>
+          <section data-background-color="#663399">
+            <h3 style="text-transform: none;">
+              <strong>¿Qu&eacute; es hampiy y por qu&eacute; surge?</strong>
+            </h3>
+            <p class="fragment fade-up">
+              hampiy es una aplicaci&oacute;n de entorno web creada para
+              gestionar de manera accesible, eficiente y r&aacute;pida cualquier
+              entidad de salud, <strong>especialmente en el Ecuador</strong>.
+            </p>
+            <p class="fragment fade-up">
+              - Experiencia personal
+            </p>
+            <p class="fragment fade-up">
+              - Necesidad real
+            </p>
+            <p class="fragment fade-up">
+              - Accesible para todos
+            </p>
+          </section>
 
-                        <section data-background-color="#663399">
-                            <h3 style="text-transform: none;"><strong>¿Por qu&eacute; usar hampiy?</strong></h3>
-                            <p class="fragment fade-up">2- Desarrollada en un entorno Web/Internet</p>
-                            <p class="fragment fade-up">&rarr; M&aacute;s accesibilidad, mayor y mejor uso, ahorro de tiempo</p>
-                        </section>                        
-                            
-                        <section data-background-color="#663399">
-                            <h3 style="text-transform: none;"><strong>¿Por qu&eacute; usar hampiy?</strong></h3>    
-                            <p class="fragment fade-up">3- Desarrollada usando servicios en la nube</p>
-                            <p class="fragment fade-up">&rarr; Se evitan p&eacute;rdidas de informaci&oacute;n por roturas, garantizando el servicio e integralidad de los datos en todo momento </p>
-                        </section>
-                            
-                        <section data-background-color="#663399">
-                            <h3 style="text-transform: none;"><strong>¿Por qu&eacute; usar hampiy?</strong></h3>    
-                            <p class="fragment fade-up">4- Dise&ntilde;o y enfoque de la aplicaci&oacute;n</p>
-                            <p class="fragment fade-up">&rarr; Extremadamente &uacute;til, facil de usar, gran experiencia de usuario </p>
-                        </section>
+          <section data-background-color="#663399">
+            <h3 style="text-transform: none;">
+              <strong>¿Ventajas que ofrece hampiy?</strong>
+            </h3>
+            <p class="fragment fade-up">
+              - Desarrollada con tecnolog&iacute;as modernas (aws, serveless,
+              CDN)
+            </p>
+            <p class="fragment fade-up">
+              - Menos imprevistos en el software (no intalaci&oacute;n, no
+              soporte en la entidad.)
+            </p>
+            <p class="fragment fade-up">- 0 costes de soporte t&eacute;cnico</p>
+            <p class="fragment fade-up">
+              - Practicamente nula inversi&oacute;n en
+              infraestructura(servidores, redes)
+            </p>
+          </section>
 
-                        <section data-background-color="#663399">
-                            <h3 style="text-transform: none;"><strong>¿Qu&eacute; incluye hampiy?</strong></h3>    
-                            <p class="fragment fade-up">1- lorem ipsum</p>
-                            <p class="fragment fade-up">2- dorum sit amet</p>
-                        </section>
-                        
+          <section data-background-color="#663399">
+            <p class="fragment fade-up">
+              - Ahorro financiero desde el pago mensual hasta los gastos diarios
+              de materiales. (Hojas, impresiones)
+            </p>
+            <p class="fragment fade-up">
+              - Accesibilidad desde cualquier lugar y desde cualquier
+              dispositivo
+            </p>
+            <p class="fragment fade-up">
+              - Intuitivo, r&aacute;pido y predecible.
+            </p>
+            <p class="fragment fade-up">
+              - Mejor enfoque y aprovechamiento del personal en actividades
+              diarias del centro.
+            </p>
+            <p class="fragment fade-up">
+              - Constante mejora y creciemto sin costo adicional(funcionalidades
+              adicionales trasparentes, cloud services).
+            </p>
+          </section>
 
-               </section>
-			</div>
-		</div>
+          <section data-background-color="#663399">
+            <h3 style="text-transform: none;">
+              <strong>¿Qu&eacute; gestiona hampiy?</strong>
+            </h3>
+            <p class="fragment fade-up">
+              - Hospitalizaci&oacute;n(evoluciones, notas, etc...)
+            </p>
+            <p class="fragment fade-up">- Consultas</p>
+            <p class="fragment fade-up">- Laboratorio</p>
+            <p class="fragment fade-up">- Quir&oacute;fano</p>
+            <p class="fragment fade-up">- Honorarios</p>
+            <p class="fragment fade-up">
+              Todo el entorno de la entidad desde la administraci&oacute;n
+              brindando mejor control y eficiencia.
+            </p>
+          </section>
 
-		<script src="js/reveal.js"></script>
+          <section data-background-color="#663399">
+            <h3 style="text-transform: none;">
+              <strong>Gracias!</strong>
+            </h3>
+          </section>
+        </section>
+      </div>
+    </div>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-                controlsLayout: 'edges',
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        controlsLayout: "edges",
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/notes/notes.js", async: true },
+          { src: "plugin/highlight/highlight.js", async: true }
+        ]
+      });
+    </script>
+  </body>
 </html>
